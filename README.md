@@ -56,11 +56,11 @@ npm run build
 
 #### git
 
-If the library is hosted at a git repository, e.g.https://github.com/diffbot/enhance-js-client
+If the library is hosted at a git repository, e.g.https://github.com/diffbot/enhance-client-js
 then install it via:
 
 ```shell
-    npm install diffbot/enhance-js-client --save
+    npm install diffbot/enhance-client-js --save
 ```
 
 ### For browser

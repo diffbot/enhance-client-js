@@ -38,7 +38,6 @@ let opts = {
   'mode': "mode_example", // String | `mode=refresh` indicates that Diffbot will attempt to recrawl all the origins of the identified entity and reconstruct the returned entity from this refreshed data.
   'nonCanonicalFacts': "nonCanonicalFacts_example", // String | `nonCanonicalFacts=true` returns non-canonical facts.
   'jsonmode': "jsonmode_example", // String | `jsonmode=extended` returns origin information for facts.
-  'leadIQToken': "leadIQToken_example", // String | leadIQ token
   'rocketReachToken': "rocketReachToken_example", // String | rocketReach token
   'xDiffbotRequestId': "xDiffbotRequestId_example" // String | Request UUID for tracking. If available, will be set on response.
 };
@@ -71,7 +70,6 @@ Name | Type | Description  | Notes
  **mode** | **String**| &#x60;mode&#x3D;refresh&#x60; indicates that Diffbot will attempt to recrawl all the origins of the identified entity and reconstruct the returned entity from this refreshed data. | [optional] 
  **nonCanonicalFacts** | **String**| &#x60;nonCanonicalFacts&#x3D;true&#x60; returns non-canonical facts. | [optional] 
  **jsonmode** | **String**| &#x60;jsonmode&#x3D;extended&#x60; returns origin information for facts. | [optional] 
- **leadIQToken** | **String**| leadIQ token | [optional] 
  **rocketReachToken** | **String**| rocketReach token | [optional] 
  **xDiffbotRequestId** | **String**| Request UUID for tracking. If available, will be set on response. | [optional] 
 

@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The BulkjobStatus model module.
  * @module com.diffbot.kg.enhance.openapi.invoker/com.diffbot.kg.enhance.openapi.model/BulkjobStatus
- * @version 1.0.0-rc.03
+ * @version 1.0.0-rc.04
  */
 class BulkjobStatus {
     /**

@@ -21,7 +21,7 @@ import RequestError from '../com.diffbot.kg.enhance.openapi.model/RequestError';
 /**
 * BulkEnhanceEndpoint service.
 * @module com.diffbot.kg.enhance.openapi.invoker/com.diffbot.kg.enhance.openapi.api/BulkEnhanceEndpointApi
-* @version 1.0.0-rc.03
+* @version 1.0.0-rc.04
 */
 export default class BulkEnhanceEndpointApi {
 
@@ -101,7 +101,6 @@ export default class BulkEnhanceEndpointApi {
      * @param {String} opts.mode `mode=refresh` indicates that Diffbot will attempt to recrawl all the origins of the identified entity and reconstruct the returned entity from this refreshed data.
      * @param {String} opts.nonCanonicalFacts `nonCanonicalFacts=true` returns non-canonical facts.
      * @param {String} opts.jsonmode `jsonmode=extended` returns origin information for facts.
-     * @param {String} opts.leadIQToken leadIQ token
      * @param {String} opts.rocketReachToken rocketReach token
      * @param {String} opts.webhookurl Webhook URL
      * @param {String} opts.xDiffbotRequestId Request UUID for tracking. If available, will be set on response.
@@ -121,7 +120,6 @@ export default class BulkEnhanceEndpointApi {
         'mode': opts['mode'],
         'nonCanonicalFacts': opts['nonCanonicalFacts'],
         'jsonmode': opts['jsonmode'],
-        'leadIQToken': opts['leadIQToken'],
         'rocketReachToken': opts['rocketReachToken'],
         'webhookurl': opts['webhookurl']
       };

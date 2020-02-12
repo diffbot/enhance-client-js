@@ -19,7 +19,7 @@ import RequestError from '../com.diffbot.kg.enhance.openapi.model/RequestError';
 /**
 * EnhanceLiveEndpoint service.
 * @module com.diffbot.kg.enhance.openapi.invoker/com.diffbot.kg.enhance.openapi.api/EnhanceLiveEndpointApi
-* @version 1.0.0-rc.03
+* @version 1.0.0-rc.04
 */
 export default class EnhanceLiveEndpointApi {
 
@@ -62,7 +62,6 @@ export default class EnhanceLiveEndpointApi {
      * @param {String} opts.mode `mode=refresh` indicates that Diffbot will attempt to recrawl all the origins of the identified entity and reconstruct the returned entity from this refreshed data.
      * @param {String} opts.nonCanonicalFacts `nonCanonicalFacts=true` returns non-canonical facts.
      * @param {String} opts.jsonmode `jsonmode=extended` returns origin information for facts.
-     * @param {String} opts.leadIQToken leadIQ token
      * @param {String} opts.rocketReachToken rocketReach token
      * @param {String} opts.xDiffbotRequestId Request UUID for tracking. If available, will be set on response.
      * @param {module:com.diffbot.kg.enhance.openapi.invoker/com.diffbot.kg.enhance.openapi.api/EnhanceLiveEndpointApi~enhanceCallback} callback The callback function, accepting three arguments: error, data, response
@@ -90,7 +89,6 @@ export default class EnhanceLiveEndpointApi {
         'mode': opts['mode'],
         'nonCanonicalFacts': opts['nonCanonicalFacts'],
         'jsonmode': opts['jsonmode'],
-        'leadIQToken': opts['leadIQToken'],
         'rocketReachToken': opts['rocketReachToken']
       };
       let headerParams = {

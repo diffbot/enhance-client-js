@@ -17,7 +17,7 @@ import querystring from "querystring";
 
 /**
 * @module com.diffbot.kg.enhance.openapi.invoker/ApiClient
-* @version 1.0.0-rc.03
+* @version 1.0.0-rc.04
 */
 
 /**

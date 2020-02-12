@@ -1,4 +1,4 @@
-# EnhanceClient.BulkEnhanceEndpointApi
+# DiffbotEnhanceClient.BulkEnhanceEndpointApi
 
 All URIs are relative to *https://kg.diffbot.com*
 
@@ -22,9 +22,9 @@ Get status of a bulk Enhance job
 ### Example
 
 ```javascript
-import EnhanceClient from 'enhance-client';
+import DiffbotEnhanceClient from 'diffbot-enhance-client';
 
-let apiInstance = new EnhanceClient.BulkEnhanceEndpointApi();
+let apiInstance = new DiffbotEnhanceClient.BulkEnhanceEndpointApi();
 let bulkjobId = "bulkjobId_example"; // String | Bulkjob Id
 let opts = {
   'token': "token_example" // String | Diffbot Token
@@ -71,9 +71,9 @@ Enhance endpoint to find person or organization using partial data
 ### Example
 
 ```javascript
-import EnhanceClient from 'enhance-client';
+import DiffbotEnhanceClient from 'diffbot-enhance-client';
 
-let apiInstance = new EnhanceClient.BulkEnhanceEndpointApi();
+let apiInstance = new DiffbotEnhanceClient.BulkEnhanceEndpointApi();
 let opts = {
   'token': "token_example", // String | Diffbot Token
   'tag': ["null"], // [String] | Tag
@@ -136,9 +136,9 @@ Poll a bulk Enhance job
 ### Example
 
 ```javascript
-import EnhanceClient from 'enhance-client';
+import DiffbotEnhanceClient from 'diffbot-enhance-client';
 
-let apiInstance = new EnhanceClient.BulkEnhanceEndpointApi();
+let apiInstance = new DiffbotEnhanceClient.BulkEnhanceEndpointApi();
 let bulkjobId = "bulkjobId_example"; // String | Bulkjob Id
 let opts = {
   'token': "token_example", // String | Diffbot Token
@@ -187,9 +187,9 @@ Stop an incomplete job
 ### Example
 
 ```javascript
-import EnhanceClient from 'enhance-client';
+import DiffbotEnhanceClient from 'diffbot-enhance-client';
 
-let apiInstance = new EnhanceClient.BulkEnhanceEndpointApi();
+let apiInstance = new DiffbotEnhanceClient.BulkEnhanceEndpointApi();
 let bulkjobId = "bulkjobId_example"; // String | Bulkjob Id
 let opts = {
   'token': "token_example" // String | Diffbot Token

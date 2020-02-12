@@ -19,7 +19,7 @@ import RequestError from '../com.diffbot.kg.enhance.openapi.model/RequestError';
 /**
 * EnhanceLiveEndpoint service.
 * @module com.diffbot.kg.enhance.openapi.invoker/com.diffbot.kg.enhance.openapi.api/EnhanceLiveEndpointApi
-* @version 1.0.0-rc.02
+* @version 1.0.0-rc.03
 */
 export default class EnhanceLiveEndpointApi {
 

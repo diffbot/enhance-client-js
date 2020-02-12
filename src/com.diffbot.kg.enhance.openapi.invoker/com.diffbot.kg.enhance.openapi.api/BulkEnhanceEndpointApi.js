@@ -21,7 +21,7 @@ import RequestError from '../com.diffbot.kg.enhance.openapi.model/RequestError';
 /**
 * BulkEnhanceEndpoint service.
 * @module com.diffbot.kg.enhance.openapi.invoker/com.diffbot.kg.enhance.openapi.api/BulkEnhanceEndpointApi
-* @version 1.0.0-rc.02
+* @version 1.0.0-rc.03
 */
 export default class BulkEnhanceEndpointApi {
 

@@ -1,4 +1,4 @@
-# @DiffbotEnhanceClient.BulkjobRecoveryStatusResponse
+# EnhanceClient.BulkjobRecoveryStatusResponse
 
 ## Properties
 

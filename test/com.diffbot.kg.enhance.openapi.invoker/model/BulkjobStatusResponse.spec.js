@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/com.diffbot.kg.enhance.openapi.invoker/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.@DiffbotEnhanceClient);
+    factory(root.expect, root.EnhanceClient);
   }
-}(this, function(expect, @DiffbotEnhanceClient) {
+}(this, function(expect, EnhanceClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new @DiffbotEnhanceClient.BulkjobStatusResponse();
+    instance = new EnhanceClient.BulkjobStatusResponse();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('BulkjobStatusResponse', function() {
     it('should create an instance of BulkjobStatusResponse', function() {
       // uncomment below and update the code to test BulkjobStatusResponse
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatusResponse();
-      //expect(instance).to.be.a(@DiffbotEnhanceClient.BulkjobStatusResponse);
+      //var instane = new EnhanceClient.BulkjobStatusResponse();
+      //expect(instance).to.be.a(EnhanceClient.BulkjobStatusResponse);
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatusResponse();
+      //var instane = new EnhanceClient.BulkjobStatusResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property content (base name: "content")', function() {
       // uncomment below and update the code to test the property content
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatusResponse();
+      //var instane = new EnhanceClient.BulkjobStatusResponse();
       //expect(instance).to.be();
     });
 

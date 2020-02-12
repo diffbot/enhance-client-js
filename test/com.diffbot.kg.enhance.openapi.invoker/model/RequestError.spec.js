@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/com.diffbot.kg.enhance.openapi.invoker/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.@DiffbotEnhanceClient);
+    factory(root.expect, root.EnhanceClient);
   }
-}(this, function(expect, @DiffbotEnhanceClient) {
+}(this, function(expect, EnhanceClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new @DiffbotEnhanceClient.RequestError();
+    instance = new EnhanceClient.RequestError();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('RequestError', function() {
     it('should create an instance of RequestError', function() {
       // uncomment below and update the code to test RequestError
-      //var instane = new @DiffbotEnhanceClient.RequestError();
-      //expect(instance).to.be.a(@DiffbotEnhanceClient.RequestError);
+      //var instane = new EnhanceClient.RequestError();
+      //expect(instance).to.be.a(EnhanceClient.RequestError);
     });
 
     it('should have the property error (base name: "error")', function() {
       // uncomment below and update the code to test the property error
-      //var instane = new @DiffbotEnhanceClient.RequestError();
+      //var instane = new EnhanceClient.RequestError();
       //expect(instance).to.be();
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instane = new @DiffbotEnhanceClient.RequestError();
+      //var instane = new EnhanceClient.RequestError();
       //expect(instance).to.be();
     });
 
     it('should have the property message (base name: "message")', function() {
       // uncomment below and update the code to test the property message
-      //var instane = new @DiffbotEnhanceClient.RequestError();
+      //var instane = new EnhanceClient.RequestError();
       //expect(instance).to.be();
     });
 
     it('should have the property query (base name: "query")', function() {
       // uncomment below and update the code to test the property query
-      //var instane = new @DiffbotEnhanceClient.RequestError();
+      //var instane = new EnhanceClient.RequestError();
       //expect(instance).to.be();
     });
 

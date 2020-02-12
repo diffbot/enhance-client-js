@@ -1,6 +1,6 @@
 {
-  "name": "@diffbot/enhance-client",
-  "version": "1.0.0-rc.02",
+  "name": "enhance-client",
+  "version": "1.0.0-rc.03",
   "description": "Enhance_is_an_API_to_find_a_person_or_organization_in_the_Knowledge_Graph_using_partial_data",
   "license": "Diffbot Terms and Conditions (https://www.diffbot.com/terms/)",
   "main": "dist/com.diffbot.kg.enhance.openapi.invoker/index.js",

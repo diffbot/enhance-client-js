@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The RequestError model module.
  * @module com.diffbot.kg.enhance.openapi.invoker/com.diffbot.kg.enhance.openapi.model/RequestError
- * @version 1.0.0-rc.02
+ * @version 1.0.0-rc.03
  */
 class RequestError {
     /**

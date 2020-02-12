@@ -1,4 +1,4 @@
-# @DiffbotEnhanceClient.RequestError
+# EnhanceClient.RequestError
 
 ## Properties
 

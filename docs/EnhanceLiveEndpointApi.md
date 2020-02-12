@@ -1,4 +1,4 @@
-# @DiffbotEnhanceClient.EnhanceLiveEndpointApi
+# EnhanceClient.EnhanceLiveEndpointApi
 
 All URIs are relative to *https://kg.diffbot.com*
 
@@ -19,9 +19,9 @@ Enhance endpoint to find person or organization using partial data
 ### Example
 
 ```javascript
-import @DiffbotEnhanceClient from '@diffbot/enhance-client';
+import EnhanceClient from 'enhance-client';
 
-let apiInstance = new @DiffbotEnhanceClient.EnhanceLiveEndpointApi();
+let apiInstance = new EnhanceClient.EnhanceLiveEndpointApi();
 let opts = {
   'token': "token_example", // String | Diffbot Token
   'type': "type_example", // String | Diffbot entity type

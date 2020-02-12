@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/com.diffbot.kg.enhance.openapi.invoker/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.@DiffbotEnhanceClient);
+    factory(root.expect, root.DiffbotEnhanceClient);
   }
-}(this, function(expect, @DiffbotEnhanceClient) {
+}(this, function(expect, DiffbotEnhanceClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new @DiffbotEnhanceClient.BulkjobStatus();
+    instance = new DiffbotEnhanceClient.BulkjobStatus();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,43 +50,43 @@
   describe('BulkjobStatus', function() {
     it('should create an instance of BulkjobStatus', function() {
       // uncomment below and update the code to test BulkjobStatus
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatus();
-      //expect(instance).to.be.a(@DiffbotEnhanceClient.BulkjobStatus);
+      //var instane = new DiffbotEnhanceClient.BulkjobStatus();
+      //expect(instance).to.be.a(DiffbotEnhanceClient.BulkjobStatus);
     });
 
     it('should have the property jobId (base name: "job_id")', function() {
       // uncomment below and update the code to test the property jobId
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatus();
+      //var instane = new DiffbotEnhanceClient.BulkjobStatus();
       //expect(instance).to.be();
     });
 
     it('should have the property message (base name: "message")', function() {
       // uncomment below and update the code to test the property message
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatus();
+      //var instane = new DiffbotEnhanceClient.BulkjobStatus();
       //expect(instance).to.be();
     });
 
     it('should have the property jobsTotal (base name: "jobs_total")', function() {
       // uncomment below and update the code to test the property jobsTotal
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatus();
+      //var instane = new DiffbotEnhanceClient.BulkjobStatus();
       //expect(instance).to.be();
     });
 
     it('should have the property jobsCompleted (base name: "jobs_completed")', function() {
       // uncomment below and update the code to test the property jobsCompleted
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatus();
+      //var instane = new DiffbotEnhanceClient.BulkjobStatus();
       //expect(instance).to.be();
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatus();
+      //var instane = new DiffbotEnhanceClient.BulkjobStatus();
       //expect(instance).to.be();
     });
 
     it('should have the property estimateRemainingTime (base name: "estimate_remaining_time")', function() {
       // uncomment below and update the code to test the property estimateRemainingTime
-      //var instane = new @DiffbotEnhanceClient.BulkjobStatus();
+      //var instane = new DiffbotEnhanceClient.BulkjobStatus();
       //expect(instance).to.be();
     });
 

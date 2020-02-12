@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/com.diffbot.kg.enhance.openapi.invoker/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.@DiffbotEnhanceClient);
+    factory(root.expect, root.DiffbotEnhanceClient);
   }
-}(this, function(expect, @DiffbotEnhanceClient) {
+}(this, function(expect, DiffbotEnhanceClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new @DiffbotEnhanceClient.BulkEnhanceEndpointApi();
+    instance = new DiffbotEnhanceClient.BulkEnhanceEndpointApi();
   });
 
   var getProperty = function(object, getter, property) {

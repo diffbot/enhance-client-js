@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/com.diffbot.kg.enhance.openapi.invoker/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.@DiffbotEnhanceClient);
+    factory(root.expect, root.DiffbotEnhanceClient);
   }
-}(this, function(expect, @DiffbotEnhanceClient) {
+}(this, function(expect, DiffbotEnhanceClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new @DiffbotEnhanceClient.EnhanceResponse();
+    instance = new DiffbotEnhanceClient.EnhanceResponse();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('EnhanceResponse', function() {
     it('should create an instance of EnhanceResponse', function() {
       // uncomment below and update the code to test EnhanceResponse
-      //var instane = new @DiffbotEnhanceClient.EnhanceResponse();
-      //expect(instance).to.be.a(@DiffbotEnhanceClient.EnhanceResponse);
+      //var instane = new DiffbotEnhanceClient.EnhanceResponse();
+      //expect(instance).to.be.a(DiffbotEnhanceClient.EnhanceResponse);
     });
 
     it('should have the property score (base name: "score")', function() {
       // uncomment below and update the code to test the property score
-      //var instane = new @DiffbotEnhanceClient.EnhanceResponse();
+      //var instane = new DiffbotEnhanceClient.EnhanceResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property enhanced (base name: "enhanced")', function() {
       // uncomment below and update the code to test the property enhanced
-      //var instane = new @DiffbotEnhanceClient.EnhanceResponse();
+      //var instane = new DiffbotEnhanceClient.EnhanceResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property query (base name: "query")', function() {
       // uncomment below and update the code to test the property query
-      //var instane = new @DiffbotEnhanceClient.EnhanceResponse();
+      //var instane = new DiffbotEnhanceClient.EnhanceResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property warnings (base name: "warnings")', function() {
       // uncomment below and update the code to test the property warnings
-      //var instane = new @DiffbotEnhanceClient.EnhanceResponse();
+      //var instane = new DiffbotEnhanceClient.EnhanceResponse();
       //expect(instance).to.be();
     });
 

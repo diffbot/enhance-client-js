@@ -1,4 +1,4 @@
-# @DiffbotEnhanceClient.BulkjobAccepted
+# DiffbotEnhanceClient.BulkjobAccepted
 
 ## Properties
 

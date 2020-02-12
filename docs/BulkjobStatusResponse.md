@@ -1,4 +1,4 @@
-# @DiffbotEnhanceClient.BulkjobStatusResponse
+# DiffbotEnhanceClient.BulkjobStatusResponse
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# @DiffbotEnhanceClient.EnhanceResponse
+# DiffbotEnhanceClient.EnhanceResponse
 
 ## Properties
 

@@ -29,9 +29,9 @@ import EnhanceLiveEndpointApi from './com.diffbot.kg.enhance.openapi.api/Enhance
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
 * <pre>
-* var @DiffbotEnhanceClient = require('com.diffbot.kg.enhance.openapi.invoker/index'); // See note below*.
-* var xxxSvc = new @DiffbotEnhanceClient.XxxApi(); // Allocate the API class we're going to use.
-* var yyyModel = new @DiffbotEnhanceClient.Yyy(); // Construct a model instance.
+* var DiffbotEnhanceClient = require('com.diffbot.kg.enhance.openapi.invoker/index'); // See note below*.
+* var xxxSvc = new DiffbotEnhanceClient.XxxApi(); // Allocate the API class we're going to use.
+* var yyyModel = new DiffbotEnhanceClient.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -43,8 +43,8 @@ import EnhanceLiveEndpointApi from './com.diffbot.kg.enhance.openapi.api/Enhance
 * <p>
 * A non-AMD browser application (discouraged) might do something like this:
 * <pre>
-* var xxxSvc = new @DiffbotEnhanceClient.XxxApi(); // Allocate the API class we're going to use.
-* var yyy = new @DiffbotEnhanceClient.Yyy(); // Construct a model instance.
+* var xxxSvc = new DiffbotEnhanceClient.XxxApi(); // Allocate the API class we're going to use.
+* var yyy = new DiffbotEnhanceClient.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -52,7 +52,7 @@ import EnhanceLiveEndpointApi from './com.diffbot.kg.enhance.openapi.api/Enhance
 * </pre>
 * </p>
 * @module com.diffbot.kg.enhance.openapi.invoker/index
-* @version 1.0.0-rc.02
+* @version 1.0.0-rc.03
 */
 export {
     /**

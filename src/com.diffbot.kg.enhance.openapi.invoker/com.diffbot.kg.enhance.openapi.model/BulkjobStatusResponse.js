@@ -17,7 +17,7 @@ import BulkjobStatus from './BulkjobStatus';
 /**
  * The BulkjobStatusResponse model module.
  * @module com.diffbot.kg.enhance.openapi.invoker/com.diffbot.kg.enhance.openapi.model/BulkjobStatusResponse
- * @version 1.0.0-rc.04
+ * @version 1.0.0
  */
 class BulkjobStatusResponse {
     /**

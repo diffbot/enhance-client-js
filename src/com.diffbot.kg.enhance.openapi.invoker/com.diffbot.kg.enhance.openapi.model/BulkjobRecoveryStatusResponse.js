@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The BulkjobRecoveryStatusResponse model module.
  * @module com.diffbot.kg.enhance.openapi.invoker/com.diffbot.kg.enhance.openapi.model/BulkjobRecoveryStatusResponse
- * @version 1.0.0-rc.04
+ * @version 1.0.0
  */
 class BulkjobRecoveryStatusResponse {
     /**

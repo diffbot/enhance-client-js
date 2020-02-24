@@ -52,7 +52,7 @@ import EnhanceLiveEndpointApi from './com.diffbot.kg.enhance.openapi.api/Enhance
 * </pre>
 * </p>
 * @module com.diffbot.kg.enhance.openapi.invoker/index
-* @version 1.0.0-rc.04
+* @version 1.0.0
 */
 export {
     /**
